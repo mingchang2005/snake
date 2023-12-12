@@ -37,7 +37,6 @@ void drawMap() {
             }
             else {
                 printf(" ");  // 在牆壁內繪製空白區域
-                printf("");
             }
         }
         printf("\n");
