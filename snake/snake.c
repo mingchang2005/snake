@@ -11,7 +11,7 @@ typedef struct {
 } Point;
 typedef struct {
     int length;
-    Point body[DEFAULT_MAX_LENGTH];
+    Point body[MAXpoint];
     int direction;  // 1: 上, 2: 下, 3: 左, 4: 右
 } Snake;
 Point food;
@@ -53,13 +53,13 @@ void initializeFood() {
 // 初始化遊戲參數
 void initializeGame() {
     if (g % 3 == 0) {
-        printf("請輸入最大長度（預設為 %d）：", DEFAULT_MAX_LENGTH);
+        printf("請輸入最大長度（請勿小於%d或大於%d超過範圍將設定為預設值%d或%d）：", DEFAULT_MAX_LENGTH, MAXpoint, DEFAULT_MAX_LENGTH, MAXpoint);
         scanf("%d", &MAX_LENGTH);
-
         // 確保最大長度不小於預設值
-        if (MAX_LENGTH < DEFAULT_MAX_LENGTH) {
+        if (MAX_LENGTH < DEFAULT_MAX_LENGTH)
             MAX_LENGTH = DEFAULT_MAX_LENGTH;
-        }
+        else if (MAX_LENGTH > MAXpoint)
+            MAX_LENGTH = MAXpoint;
     }
     // 清空螢幕，初始化蛇和食物，並繪製地圖
     system("cls");
