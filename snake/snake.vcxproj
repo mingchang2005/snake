@@ -139,10 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gotoxy.c" />
+    <ClCompile Include="initialization.c" />
+    <ClCompile Include="movesnake.c" />
+    <ClCompile Include="die.c" />
     <ClCompile Include="snake.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="initiaHeader.h" />
+    <ClInclude Include="moveHeader.h" />
     <ClInclude Include="parameter.h" />
+    <ClInclude Include="pointHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
