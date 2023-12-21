@@ -1,17 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
 #define WIDTH 30
 #define HEIGHT 20
 #define DEFAULT_MAX_LENGTH 5
 #define SPEED 100
 #define life 3
 #define MAXpoint 50
-void gotoxy(int, int);
-void drawMap();
-void initializeSnake();
-void moveSnake();
-void initializeFood();
-void initializeGame();
-int checkCollision();
-int checkFood();
 typedef struct {
     int x;
     int y;
