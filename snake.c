@@ -5,7 +5,8 @@
 #include <windows.h>
 #include <time.h>
 #include"parameter.h"
-int g, tt = 0, ro, win, rod = 1;
+void MAX(int);
+int g, tt = 0, ro, win, rod = 1,pon;
 int MAX_LENGTH = DEFAULT_MAX_LENGTH;  // 最大長度
 // 在控制台上繪製蛇和食物以及分數
 void drawSnakeAndFood() {
@@ -129,12 +130,42 @@ int main() {
         _getch();
         system("cls");
         if (win)
+        {
             printf("You Win!\n得分:%d\n使用%d回合\n", MAX_LENGTH * life, ro);
+            pon = MAX_LENGTH * life;
+        }
         else
+        {
             printf("\nGame Over!\n總得分:%d\n", tt + life);
+            pon = tt + life;
+        }
+        MAX(pon);
         tt = 0;
         // 回合結束後，詢問使用者是否開始新遊戲或結束
         printf("按下任意鍵開始新遊戲或按下x結束\n");
     } while (_getch() != 'x');
     return 0;
+}
+void MAX(int pon)
+{
+    int mer;
+    FILE* pfile;
+    if ((pfile = fopen("MAX.txt", "r+")) == NULL) {  // 判斷檔案是否開啟失敗
+        printf("MAX.txt 檔案無法開啟"); system("pause"); return(0);
+    }
+    if (fscanf(pfile, "%d", &mer) != EOF)
+    {   
+        if (pon > mer)
+        {
+            mer = pon;
+        }
+        else
+            mer = mer;
+        fseek(pfile, 0, SEEK_SET);
+        fprintf(pfile, "%s", "     ");
+        fseek(pfile, 0, SEEK_SET);
+        fprintf(pfile, "%d", mer);
+        printf("最高分數:%d\n", mer);
+    }
+    fclose(pfile); // 關閉檔案
 }
