@@ -30,6 +30,9 @@ https://github.com/mingchang2005/snake/blob/master/%E6%B5%81%E7%A8%8B%E5%9C%96.p
 1.檔案處理ch10  
 #  !!專案使用方式!!  
 1.下載rar檔案(01,02,03下載於相同目錄)  
+[https://github.com/mingchang2005/snake/blob/master/snake.part01.rar](https://github.com/mingchang2005/snake/raw/master/snake.part01.rar)  
+[https://github.com/mingchang2005/snake/raw/master/snake.part02.rar](https://github.com/mingchang2005/snake/raw/master/snake.part01.rar)  
+[https://github.com/mingchang2005/snake/raw/master/snake.part03.rar](https://github.com/mingchang2005/snake/raw/master/snake.part03.rar)  
 2.利用winrar解壓縮(解壓縮01即可)  
 3.開啟資料夾中snake.sln，在VS2019中執行  
 (如果直接執行.exe會因為與.txt所在目錄不同造成檔案讀取失敗)  
