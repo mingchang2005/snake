@@ -27,6 +27,8 @@
 4.多函式的應用ch7  
 ⦾修改/讀取檔案(最高分紀錄)  
 1.檔案處理ch10  
+#  開發時間  
+
 #  !!專案使用方式!!  
 1.下載rar檔案(01,02,03下載於相同目錄)  
 [01](https://github.com/mingchang2005/snake/raw/master/snake.part01.rar)
