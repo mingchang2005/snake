@@ -14,7 +14,7 @@
 3.擁有記分板功能，生命耗盡或是達到最大分數則顯示結算畫面  
 4.在結算後可以選擇結束或開啟新遊戲  
 #  流程圖
-https://github.com/mingchang2005/snake/blob/master/%E6%B5%81%E7%A8%8B%E5%9C%96.pdf  
+[流程圖](https://github.com/mingchang2005/snake/blob/master/%E6%B5%81%E7%A8%8B%E5%9C%96.pdf)  
 #  技術使用說明
 ⦾規劃  
 1.流程圖ch1   
