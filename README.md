@@ -37,11 +37,4 @@
 2023/12/20,1hr  
 2023/12/21,4hr  
 2023/12/23,3hr  
-#  !!專案使用方式!!  
-1.下載rar檔案(01,02,03下載於相同目錄)  
-[01](https://github.com/mingchang2005/snake/raw/master/snake.part01.rar)
-[02](https://github.com/mingchang2005/snake/raw/master/snake.part02.rar)
-[03](https://github.com/mingchang2005/snake/raw/master/snake.part03.rar)  
-2.利用winrar解壓縮(解壓縮01即可)  
-3.開啟資料夾中snake.sln，在VS2019中執行  
-(如果直接執行.exe會因為與.txt所在目錄不同造成檔案讀取失敗)  
+#  [執行](https://github.com/mingchang2005/snake/raw/master/%E5%9F%B7%E8%A1%8C.zip)  
