@@ -38,4 +38,7 @@
 2023/12/21,4hr  
 2023/12/23,3hr  
 #  [執行](https://github.com/mingchang2005/snake/raw/master/%E5%9F%B7%E8%A1%8C.zip)  
-#  程式  
+#  查看程式碼  
+[01](https://github.com/mingchang2005/snake/raw/master/snake.part01.rar)  
+[02](https://github.com/mingchang2005/snake/raw/master/snake.part02.rar)  
+[03](https://github.com/mingchang2005/snake/raw/master/snake.part03.rar)  
